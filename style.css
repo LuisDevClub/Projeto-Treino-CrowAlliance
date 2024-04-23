@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.imagem-logo {
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+
+}
+
+.header {
+    color:rgb(247, 245, 245);
+    display: flex;
+    align-items: center;
+    margin: 30px;
+   gap: 30px;
+
+
+}
+
+.header img {
+    height: 100px;
+}
+
+.header a{
+    color: rgb(245, 243, 243);
+    font-size: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: fantasy;
+}
+
+.header a:hover {
+    color: red;
+    font-size: 30px;
+    transition: 0.5s ease-in-out;
+    text-decoration: none;
+    font-family: fantasy;
+
+}
+
+
+body {
+
+    height: 100vh;
+
+
+}
+
+h1 {
+    color: rgb(14, 13, 13);
+    height: 600px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+p {
+    color: rgb(24, 23, 23);
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.caixa-video {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+
+}
+
+video {
+    width: 100vw;
+
+}
+
+.caixa-mae {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    height: 100vh;
+}
+
+.mascara {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+}
+
+.link-whatsapp img {
+    height: 55px;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+
+}
+
+h1:hover {
+    color: red;
+    display: flex;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+p:hover {
+    color: red;
+    display: flex;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
